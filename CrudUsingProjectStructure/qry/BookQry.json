@@ -1,0 +1,6 @@
+{
+    "SELECTALL": "SELECT * FROM book;",
+    "UPDATEID":"update book set BOOK_NAME=?,BOOK_DETAILS=?,BOOK_AUTHOR=?,BOOK_PRICE=?,BOOK_REQUEST=? where BOOK_ID=?;",
+    "INSERT":"insert into book (BOOK_NAME,BOOK_DETAILS,BOOK_AUTHOR,BOOK_PRICE,BOOK_REQUEST) values(?,?,?,?,?);",
+    "DELETEID":"delete from book where BOOK_ID=?;"
+}
